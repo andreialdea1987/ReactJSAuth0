@@ -10,7 +10,7 @@ ReactDOM.render(
   <Auth0Provider
     domain={domain}
     clientId={clientId}
-    redirectUri={window.location.origin + "/react_js_app/"} >
+    redirectUri="https://m3rzh1n.github.io/react_js_app/" >
     <App />
   </Auth0Provider>,
   document.getElementById('root')
